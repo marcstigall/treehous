@@ -1,0 +1,41 @@
+/*Base Elements*/
+
+body {
+  background-color: orange;
+}
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 125px;
+    
+}
+
+.monkey {
+    max-width: 100px;
+    max-height: auto;
+    border-radius: 50%;
+    
+}
+
+.flyingmonkey {
+    max-width: 250px;
+    
+}
+
+footer {
+    
+    background-color: aquamarine;
+}
+
+/*Media Queries*/
+
+
+@media screen and (min-width: 480px) {
+    
+    body {
+        background-color: pink;
+        
+    }
