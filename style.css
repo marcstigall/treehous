@@ -2,16 +2,24 @@
 
 body {
   background-color: orange;
+    margin: 0 auto;
 }
 
+.nav {
+    
+    list-style: none;
+    float: right;
+}
 
-
-.container {
-    display: flex;
-    flex-direction: column;
-    height: 125px;
+ul li {
+    float: none;
+    margin: 0 auto;
+    padding: 0 1.85em;
     
 }
+
+
+
 
 .monkey {
     max-width: 100px;
@@ -39,3 +47,11 @@ footer {
         background-color: pink;
         
     }
+  
+    .nav li {
+        float:left;
+    
+    }
+
+    
+}
